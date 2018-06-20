@@ -17,5 +17,11 @@ public class Users {
     public int getAge() {
         return age;
     }
+    public void setEmail(String userEmail) {
+        email = userEmail;
+    }
+    public String getEmail() {
+        return email;
+    }
 
 }

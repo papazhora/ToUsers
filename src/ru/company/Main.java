@@ -11,13 +11,19 @@ public class Main {
             user.setName(scanner.nextLine());
             System.out.println("You name is: " + user.getName());
 
+        System.out.println("Enter you E-mail: ");
+        user.setEmail(scanner.nextLine());
+        System.out.println("You E-mail: " + user.getEmail());
+
             System.out.println("Enter you age: ");
             user.setAge(scanner.nextInt());
             if (user.getAge() < 18) {
                 System.out.println("You age less than 18 years!!!");
             }
             else {
-                System.out.print("You are " + user.getAge() + ", welcome!!!");
+                System.out.println("You are " + user.getAge() + ", welcome!!!");
             }
+
+
     }
 }
